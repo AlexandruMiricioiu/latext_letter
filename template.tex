@@ -1,60 +1,45 @@
 \documentclass[12pt, a4paper]{article}
+
 \usepackage[utf8]{inputenc}
-
-\usepackage[
-    a4paper,
-    left=1cm,
-    right=1cm,
-    top=1.5cm,
-    bottom=3.5cm
-]{geometry}
-
+\usepackage[a4paper, left=1cm, right=1cm, top=1.5cm, bottom=3.5cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{graphicx, array}
-\pagestyle{fancy}
-
-
-\fancyhead{}
-
-\renewcommand{\headrulewidth}{0.5pt}
-\setlength{\headheight}{3\baselineskip}
+\usepackage{lipsum}
 
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash}m{#1}}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash}m{#1}}
 
-\lhead{
-    \begin{tabular}{C{4cm} L{14cm}}
-        \includegraphics[width=3.5cm]{logos/budget.png} & \noindent \small Str. Jiului nr. 8, J8 Office Park, Clădirea A, Etaj București • Telefon: 0319483; 031 9002, • Fax: 021 317 07 14; • E-mail: office@euroins.ro
-    \end{tabular}
-}
-
-
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0.5pt}
+\setlength{\headheight}{3\baselineskip}
 \fancyfoot{}
-
 \renewcommand{\footrulewidth}{0.5pt}
 \setlength{\footskip}{35.50005pt}
-
-\newcolumntype{A}[1]{>{\centering\let\newline\\\arraybackslash}m{#1}}
-\newcolumntype{B}[1]{>{\raggedright\let\newline\\\arraybackslash}m{#1}}
-
+\lhead{
+    \begin{tabular}{C{4cm} L{14cm}}
+        \includegraphics[width=3.5cm]{logos/budget.png} &
+        \noindent \small Str. Jiului nr. 8, J8 Office Park, Clădirea A, Etaj
+        București
+        • Telefon: 0319483; 031 9002,
+        • Fax: 021 317 07 14;
+        • E-mail: office@euroins.ro
+    \end{tabular}
+}
 \lfoot{
-    \begin{tabular}{A{4cm} B{14cm}}
-        \includegraphics[width=3.5cm]{logos/company_logo.png} & \noindent \small 
-Autorizat de Autoritatea de Supraveghere Financiară RA-010/04.10.2003 •
-ONRC: J40/1671/2022 • Cod operator de date cu caracter personal nr. 5851 • Cod LEI 315700GZA843JXKTJ400 Banca: BCR Sucursala Libertății IBAN: RO82RNCB0069000375350001 • Capital Social: 545.487.674 LEI
+    \begin{tabular}{C{4cm} L{14cm}}
+        \includegraphics[width=3.5cm]{logos/company_logo.png} &
+        \noindent \small Autorizat de Autoritatea de Supraveghere Financiară
+        RA-010/04.10.2003
+        • ONRC: J40/1671/2022
+        • Cod operator de date cu caracter personal nr. 5851
+        • Cod LEI 315700GZA843JXKTJ400 Banca: BCR Sucursala Libertății
+        IBAN: RO82RNCB0069000375350001
+        • Capital Social: 545.487.674 LEI
     \end{tabular}
 }
 
-
-
-\usepackage{lipsum}
-
-
-% \setlength\parindent{20pt}
-
 \begin{document}
-
-
 
 \noindent \textbf{bold text} \\
 
